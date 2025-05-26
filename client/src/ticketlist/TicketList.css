@@ -1,0 +1,46 @@
+.ticket-table th,
+.ticket-table td {
+    padding: 8px;
+}
+
+.ticket-table th.title,
+.ticket-table td.title {
+    max-width: 200px;
+}
+
+.ticket-table th.description,
+.ticket-table td.description {
+    max-width: 300px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.ticket-table th.status,
+.ticket-table td.status {
+    max-width: 100px;
+}
+
+.ticket-table th.priority,
+.ticket-table td.priority {
+    max-width: 100px;
+}
+
+.ticket-table th.date,
+.ticket-table td.date {
+    max-width: 150px;
+}
+
+.ticket-table th.author,
+.ticket-table td.author {
+    max-width: 100px;
+}
+
+.ticket-table th.actions,
+.ticket-table td.actions {
+    max-width: 202px;
+}
+
+.ticket-table td.title {
+    white-space: normal;
+    word-wrap: break-word;
+}

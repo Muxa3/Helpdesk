@@ -1,0 +1,49 @@
+.article-content {
+    white-space: pre-wrap;       /* Сохраняет переносы строк и пробелы */
+    word-wrap: break-word;       /* Переносит длинные слова */
+    line-height: 1.5;           /* Увеличивает межстрочный интервал */
+    margin-bottom: 1rem;        /* Отступ снизу */
+}
+
+.article-title {
+    word-wrap: break-word;
+    margin-bottom: 0.5rem;      /* Отступ между заголовком и содержанием */
+    color: #333;                /* Цвет заголовка */
+    max-width: 70%;            /* Ограничиваем ширину заголовка */
+}
+
+.article-item {
+    margin-bottom: 1rem;        /* Отступ между статьями */
+    padding: 1rem;             /* Внутренний отступ */
+    border-radius: 0.25rem;     /* Скругление углов */
+    background-color: #fff;     /* Фон статьи */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Легкая тень */
+}
+
+.article-item .d-flex {
+    flex-wrap: wrap;           /* Разрешаем перенос элементов */
+    gap: 0.5rem;              /* Отступ между элементами при переносе */
+}
+
+.article-item .btn-group {
+    flex-shrink: 0;           /* Запрещаем кнопкам сжиматься */
+    margin-left: auto;        /* Прижимаем кнопки к правому краю */
+}
+
+.search-container {
+    margin-bottom: 1.5rem;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+} 
